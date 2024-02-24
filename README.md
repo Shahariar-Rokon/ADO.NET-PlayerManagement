@@ -35,11 +35,11 @@ Alternatively, you can download the ZIP file from the GitHub repository page: ht
   
 2. Open the project in Visual Studio 2022: Open Visual Studio 2022 and select “Open a project or solution”. Navigate to the folder where you cloned or downloaded the repository and select the .sln file.
 
-3. Now right click on the project file and go to **Add New Item--->Select Data from the left side of the VS-->Select Service Based Database.mdf
+3. Now right click on the project file and go to **Add New Item--->Select Data from the left side of the VS-->Select Service Based Database.mdf**
 
-4. Connect the database to our application: You need to go to project then properties then navigate to Settings.settings. Double click on Settings.settings. A new UI will open where you can add the name of the connection and the type of the connection. Add any name you desire then add ConnectionStrings as types. Then press the three dots …. A browser window will pop up. From there, you have to select DataSource as Microsoft SQL Server DatabaseFile then click OK. After that, navigate to Database File Name, browse and select the database that you attached earlier. Note that the name of the database will end with .mdf. Finally, press Apply and OK.
+4. Connect the database to our application: You need to go to project then properties then navigate to Settings.settings. Double click on **Settings.settings**. A new UI will open where you can add the name of the connection and the type of the connection. Add any name you desire then add **ConnectionStrings** as types. Then press the three dots **...** A browser window will pop up. From there, you have to select DataSource as **Microsoft SQL Server DatabaseFile** then click OK. After that, navigate to Database File Name, browse and select the database that you attached earlier. Note that the name of the database will end with **.mdf**. Finally, press Apply and OK.
 
-5. Use the provided Database.Sql file: Use the provided Database.Sql file to mimic the database that I was using. In case you want to try it out of the box, you should also seed the database using the commands found at the bottom of the Database.Sql file. Also note that the salaries and the categories of the players have to be pre-populated by using the query. This ensures that the dropdown can get the data for selection.
+5. Use the provided Database.Sql file to mimic the database that I was using. In case you want to try it out of the box, you should also seed the database using the commands found at the bottom of the Database.Sql file. Also note that the salaries and the categories of the players have to be pre-populated by using the query. This ensures that the dropdown can get the data for selection.
 
 6. Restore the NuGet packages: Right-click on the solution in the Solution Explorer and select “Restore NuGet Packages”. This will install the required dependencies for the project.
 
